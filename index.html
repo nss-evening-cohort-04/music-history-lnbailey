@@ -10,53 +10,55 @@
 
 <body>
 <div class="container">
-<nav>
-	View Music | <a href="#">Add Music</a> | <a href="#">Profile</a>
-</nav>
-<div class="filter">
-	<h4>Song length</h4>
-	<div class="progress"></div>
-	<h4>Artist</h4>
-	<select name="artist">
-	  <option value="wallflowers">The Wallflowers</option>
-	  <option value="zevon">Warren Zevon</option>
-	  <option value="bowie">David Bowie</option>
-	  <option value="cope">Citizen Cope</option>
-	  <option value="dragons">Imagine Dragons</option>
-	</select>
-	
-	<h4>Album</h4>
-	<select name="album">
-	  <option value="bringing-down-the-horse">Bringing Down the Horse</option>
-	  <option value="zevon">Warren Zevon</option>
-	  <option value="night-visions">Night Visions</option>
-	  <option value="cope">Citizen Cope</option>
-	  <option value="bowie">David Bowie</option>
-	</select>
+  <nav>
+  	View Music | <a href="#">Add Music</a> | <a href="#">Profile</a>
+  </nav>
+  <div class="filter">
+  	<h4>Song length</h4>
+  	<div class="progress"></div>
+  	<h4>Artist</h4>
+  	<select name="artist">
+  	  <option value="wallflowers">The Wallflowers</option>
+  	  <option value="zevon">Warren Zevon</option>
+  	  <option value="bowie">David Bowie</option>
+  	  <option value="cope">Citizen Cope</option>
+  	  <option value="dragons">Imagine Dragons</option>
+  	</select>
 
-	<h4>Genre</h4>
-	<select name="genre">
-	  <option value="Alternative Rock">Alternative Rock</option>
-	  <option value="Folk">Folk</option>
-	  <option value="Bluegrass">Bluegrass</option>
-	  <option value="rock">Rock</option>
-	  <option value="americana">Mixed Bag</option>
-	</select>
-	<br>
-	<button>FILTER</button>
+  	<h4>Album</h4>
+  	<select name="album">
+  	  <option value="bringing-down-the-horse">Bringing Down the Horse</option>
+  	  <option value="zevon">Warren Zevon</option>
+  	  <option value="night-visions">Night Visions</option>
+  	  <option value="cope">Citizen Cope</option>
+  	  <option value="bowie">David Bowie</option>
+  	</select>
+
+  	<h4>Genre</h4>
+  	<select name="genre">
+  	  <option value="Alternative Rock">Alternative Rock</option>
+  	  <option value="Folk">Folk</option>
+  	  <option value="Bluegrass">Bluegrass</option>
+  	  <option value="rock">Rock</option>
+  	  <option value="americana">Mixed Bag</option>
+  	</select>
+  	<br>
+  	<button>FILTER</button>
+  </div>
+  <div id="songList" class="list">
+  	<!-- <h2>Werewolves of London</h2>
+  	Warren Zevon | Warren Zevon | Rock
+  	<h2>6th Avenue Heartache</h2>
+  	The Wallflowers | Bringing Down the Horse | Alternative Rock
+  	<h2>Sideways</h2>
+  	Citizen Cope | Citizen Cope | Mixed Bag
+  	<h2>Radioactive</h2>
+  	Imagine Dragons | Night Vision | Alternative Rock
+  	<h2>Space Oddity</h2>
+  	David Bowie | David Bowie | Rock -->
+  </div>
 </div>
-<div class="list">
-	<h2>Werewolves of London</h2>
-	Warren Zevon | Warren Zevon | Rock
-	<h2>6th Avenue Heartache</h2>
-	The Wallflowers | Bringing Down the Horse | Alternative Rock
-	<h2>Sideways</h2>
-	Citizen Cope | Citizen Cope | Mixed Bag
-	<h2>Radioactive</h2>
-	Imagine Dragons | Night Vision | Alternative Rock
-	<h2>Space Oddity</h2>
-	David Bowie | David Bowie | Rock
-</div>
-</div>
+
+<script src="songs.js"></script>
 </body>
 </html>

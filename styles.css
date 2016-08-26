@@ -1,0 +1,72 @@
+body {
+	font-family: 'Abel', sans-serif;
+	font-size: 1.2em;
+}
+
+nav {
+	background-color: #FFB4B0;
+	padding: 2%;
+	border: 2px #333 solid;
+	margin-bottom: 2%;
+}
+h2 {
+	margin-bottom: 5px;
+}
+
+h4 {
+	margin: 15px 0 5px 0;
+	font-size: 1.1em;
+	font-weight: 700;
+}
+
+button {
+	padding: 3px;
+	background-color: #efefef;
+	color: #333;
+	width: 80%;
+	border:1px #666 solid;
+	font-size: .7em;
+	margin: 20px;
+	text-align: center;
+	border-radius: 5%;
+}
+select {
+	font-size: 1.2em;
+}
+
+.container {
+	max-width: 800px;
+	margin: 3% auto;
+}
+
+.filter {
+	background-color: #4DD7FA;
+	border: 2px #333 solid;
+	width: 25%;
+	float: left;
+	padding: 2%;
+	margin-right: 2%;
+}
+.list {
+	background-color: #FEFAC0;
+	border: 2px #333 solid;
+	width: 64%;
+	float: right;
+	padding: 2%;
+}
+.progress {
+    background: #333;
+    border-radius: 13px;
+    height: 20px;
+    width: 90%;
+    padding: 3px;
+}
+
+.progress:after {
+    content: '';
+    display: block;
+    background: #efefef;
+    width: 50%;
+    height: 100%;
+    border-radius: 9px;
+}
